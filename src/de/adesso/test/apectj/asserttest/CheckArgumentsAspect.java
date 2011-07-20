@@ -16,7 +16,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 public class CheckArgumentsAspect {
 
   /**
-   * Der Pointcut trifft auf alle Methoden in allen Packages zu, die 
+   * Der Pointcut trifft auf alle Methoden in allen Packages zu, die
    * mindestens einen Parameter mit der Annotation {@link NotNull} besitzen.
    */
   @Around("execution(* *(..,@NotNull (*),..))")
